@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*INICIO SECCION NAV*/
+
+nav {
+  display: flex;
+  background-color: black;
+  justify-content: right;
+  padding: 25px 25px;
+  text-transform: uppercase;
+}
+a {
+  border: 1px;
+  border-radius: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: rgb(230, 221, 196);
+  padding: 10px 10px;
+  margin-right: 35px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 3px 3px 0px rgb(103, 137, 131);
+}
+button:hover {
+  cursor: pointer;
+}
+/*FIN SECCION NAV*/
+
+/*INICIO SECCION MENU*/
+.conteiner {
+  background-color: lightpink;
+  background-image: url("Imagenesjc/codigo.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 120px;
+}
+h1 {
+  color: rgb(238, 238, 238);
+  text-align: center;
+  font-size: 55px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0px grey, 7px 7px 0px black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/*FIN SECCION MENU*/
+
+/*INICIO SECCION MAIN*/
+main {
+  width: 97%;
+  padding: 20px; 
+  background-color: rgb(24, 28, 48);
+}
+
+h2,
+h3,
+h4 {
+  color: rgb(103, 137, 131);
+  font-size: 40px;
+  text-align: center;   
+  font-family: Lucida;
+  padding-top: 40px; 
+}
+
+.seccionUno {
+  display: flex;  
+  height: 95%;
+  background-color: rgb(24, 28, 48);
+  
+}
+.tituloUno{
+    width: 50%;
+    height: 300px;
+}
+.parrafoUno{
+    width: 40%;
+    height: 300px;
+    text-align: justify; 
+}
+
+.seccionDos {
+  display: flex;
+  height: 95%;
+  background-color: rgb(24, 28, 48);
+}
+.parrafoDos{
+    width: 70%;
+    height: 300px;
+    text-align: justify;
+}
+.tituloDos{
+    width: 30%;
+    height: 300px;
+}
+
+.seccionTres {
+  display: flex;
+  height: 95%;
+  padding: 20px;
+  background-color: rgb(24, 28, 48); 
+}
+.tituloTres{
+    width: 30%;
+    height: 300px;
+    padding-top: 50px;
+}
+.parrafoTres{
+    width: 70%;
+    height: 300px;
+    padding: 30px;
+    text-align: justify;
+} 
+
+p{
+    color: rgb(230, 221, 196);
+    font-size: 18px;
+    padding-top: 20px;  
+}
+/*FIN SECCION MAIN*/
+ 
+
+/*INICIO SECCION VIDEO*/
+
+.titulovideo{
+  background-color: rgb(24, 28, 48);
+  font-size: 50px;
+  text-transform: unset;
+  text-align: center;  
+  padding-top: 60px;  
+}
+.barraVideo{
+  background-color: rgb(24, 28, 48);
+  text-align: center;    
+  padding: 0px 10px 50px;
+  display: grid;
+}
+.videoUno{
+  width: 70%;
+  margin: 0px 200px ; 
+  text-align: center;
+}
+.botones{
+  display: flex;
+  background-color: rgb(128, 128, 128);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 15px;
+  width: 65%;
+  margin: -95px 160px 45px;
+}
+button{
+  background-color: rgb(230, 221, 196);
+  border: solid 2px black;
+  border-radius: 8px;
+  width: 10%; 
+
+  padding: 0px 10px;   
+  box-shadow: 3px 3px 0px rgb(103, 137, 131);
+  margin-right: 30px; 
+}
+.tiempo{
+  color: rgb(238, 238, 238);
+  margin-left: 330px;
+}
+
+/*FIN SECCION VIDEO*/
+
+/*INICIO SECCIO PIE DE PAGINA*/
+
+footer {
+  background-color: rgb(103, 137, 131);
+  padding: 40px;
+  display: flex;
+  justify-content: space-around; 
+}
+
+h6 {
+  font-size: 15px;
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+img {
+  width: 50%;
+}
+
+.yo{
+  color: black;
+  font-size: 15px;
+  padding-top: 45px;
+}
+/*FIN SECCION PIE DE PAGINA*/

@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*INICIO SECCION NAV*/
+
+nav{
+    display: flex;
+    background-color: black;
+    justify-content: right;
+    padding: 25px 25px;
+    text-transform: uppercase;
+    /*text-decoration: none;*/
+}
+
+a{
+    border: 1px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgb(230,221,196);
+    padding: 10px 10px;
+    margin-right: 35px;
+    text-decoration: none;
+    color: black;
+    box-shadow: 3px 3px 0px rgb(103, 137, 131);
+}
+    button:hover{
+    cursor: pointer;
+    }
+/*FIN SECCION NAV*/
+
+/*INICIO SECCION MENU*/
+.conteiner{
+    background-image: url("./Imagenesjc/codigo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+} 
+
+h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 80px 80px;
+    text-align: center;
+    color: rgb(238, 238, 238);
+    text-shadow: 3px 3px 0px gray,
+                    7px 7px 0px black;
+}
+/*FIN SECCION MENU*/
+
+/*INICIO SECCION MAIN*/
+.juegos{
+    display: flex;
+    background-color: rgb(24, 28, 48);
+}
+
+h2{
+    color: rgb(103, 137, 131);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+main{
+    display: flex;
+    background-color: rgb(24, 28, 48);
+    justify-content: center;
+}
+.cuadroUno{
+    background-color: grey;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+}
+.cuadroDos{
+    background-color: grey;
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+    }
+.cuadroTres{
+        background-color: grey;
+        width: 300px;
+        height: 400px;
+        border: 2px solid black;
+        }
+        p{
+            text-align: center;
+            padding-top: 170px;
+        }
+.seccionImagenes{
+    display: flex ;
+    background-color: rgb(24, 28, 48);
+    justify-content: center;
+}
+img{
+    width: 300px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+.ocultar{
+    display: none;
+}
+
+.botonReinicio{
+    display: flex;
+    padding: 40px 50px;
+    background-color: rgb(24, 28, 48);
+    justify-content: center;
+    /*color: rgb(230,221,196);*/
+}
+button{
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(230,221,196);
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px rgb(103, 137, 131);
+}  
+
+/*FIN SECCION MAIN*/

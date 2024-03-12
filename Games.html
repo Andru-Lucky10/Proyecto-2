@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./estilogames.css">
+</head>
+<body>
+    <!--INICIO SECCION NAV-->
+    <header>
+        <nav>
+            <div><a href="./index.html">programacion</a>
+            </div>
+    
+            <div>
+           
+                <a href="./Historia.html"> historia</a> 
+                <a href="./Games.html"> jueguemos</a>
+            </div>
+        </nav>
+    
+    </header>
+    <!--FIN SECCION NAV-->
+
+    <!--INICIO SECCION MENU-->
+            <div class="conteiner">
+                <h1>juguemos un poco</h1>
+            </div>
+    <!--FIN SECCION MENU-->
+
+    <!--INICIO SECCION MAIN-->
+    
+            <div class="juegos">
+                <h2>Armemos el rompe cabezas y veamos que imagen es...</h2>
+            </div>
+    
+<main>
+        
+            
+            <div class="cuadroUno" ondragover="prevenirDefault(event)"
+                ondrop="soltarElemento(event)">
+                <p>Arrastre y suelte la imagen aqui</p>
+            </div>
+
+            <div class="cuadroDos">
+                <p>Arrastre y suelte la imagen aqui</p>
+            </div>
+
+            <div class="cuadroTres">
+                <p>Arrastre y suete la imagen aqui</p>
+               </div>
+</main>
+
+        <div class="seccionImagenes"> 
+        
+               <img src="./Imagenesjc/Rompe1.png" alt="imagenUno" 
+               ondragstart="inicioDeArrastre(event)"/>
+               <img src="./Imagenesjc/rompe2.png" alt="imagenDos">
+               <img src="./Imagenesjc/Rompe3.png" alt="imagenTres">
+        </div>
+        <div class="botonReinicio">
+            <button onclick="Reinicio()">Reiniciar</button>
+        </div>
+    
+<!--FIN SECCION MAIN-->
+    <script src="/scriptgames.js"></script>
+</body>
+</html>
